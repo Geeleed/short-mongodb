@@ -56,18 +56,3 @@ export {
   mongodbConnectThenInsert,
   mongodbConnectThenAggregate,
 };
-
-// const dataAddress = {
-//   connectionString: "mongodb://127.0.0.1:27017/",
-//   databaseName: "caplink",
-//   collectionName: "map",
-// };
-
-// // เรียกใช้งาน mongodbConnectThenAggregate ในรูปแบบ async เนื่องจากมีการใช้ await ในฟังก์ชัน
-// mongodbConnectThenAggregate(dataAddress)
-//   .then((result) => {
-//     console.log(result);
-//   })
-//   .catch((error) => {
-//     console.error("Error:", error);
-//   });
