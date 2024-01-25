@@ -13,8 +13,8 @@ const mongodbConnect = async (
 const mongodbConnectThenInsert = async (
   dataAddress = {
     connectionString: "mongodb://127.0.0.1:27017/",
-    databaseName: "database-test",
-    collectionName: "collection-test",
+    databaseName: "database_test",
+    collectionName: "collection_test",
   },
   data = { test_data: "this is test" }
 ) => {
@@ -33,8 +33,8 @@ const mongodbConnectThenInsert = async (
 const mongodbConnectThenAggregate = async (
   dataAddress = {
     connectionString: "mongodb://127.0.0.1:27017/",
-    databaseName: "database-test",
-    collectionName: "collection-test",
+    databaseName: "database_test",
+    collectionName: "collection_test",
   },
   aggregation = [{ $match: {} }]
 ) => {
