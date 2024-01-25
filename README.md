@@ -1,2 +1,5 @@
 # short-mongodb
- my tool for connect mongodb easy
+
+npm i @geeleed/short-mongodb
+
+my tool for connect mongodb easy
